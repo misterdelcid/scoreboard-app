@@ -1,0 +1,72 @@
+@import './variables.scss';
+
+.score{
+    margin: 20px 0 0 0;
+    @media only screen and (min-width: 600px) {
+        margin: 40px 0 0 0;
+    }
+    p {
+        font-size: 5em;
+        font-weight: 700;
+        margin: 0px;
+        background-color: rgba($primary-color, .5);
+        padding: 3px 15px;
+        @media only screen and (min-width: 600px) {
+            font-size: 7em;
+        }
+        @media only screen and (min-width: 768px) {
+            font-size: 7.5em;     
+        }
+        @media only screen and (min-width: 992px) {
+            font-size: 8em;
+        }
+        @media only screen and (min-width: 1200px) {
+            font-size: 8.5em;
+        }
+    }
+}
+
+
+.score p::selection, .score-buttons button::selection {
+    background:none;
+}
+
+.score-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    button {
+        height:100%;
+        background-color: rgba($primary-color, .25);
+        border: none;
+        color: #ccc;
+        font-size: 1.2em;
+        &:hover:enabled {
+            background-color: rgba($primary-color, .5);
+            color:#fff;
+            cursor: pointer;
+        }
+        &:focus {
+            outline:0;
+        }
+        &:disabled {
+            color:rgba(#fff, .1);
+        }
+    }
+}
+
+.top-left-button {
+    border-radius: 10px 0 0 0;
+}
+
+.bottom-left-button {
+    border-radius: 0 0 0 10px;
+}
+
+.top-right-button {
+    border-radius: 0 10px 0 0;
+}
+
+.bottom-right-button {
+    border-radius: 0 0 10px 0;
+}

@@ -1,0 +1,59 @@
+@import './variables.scss';
+
+
+.time-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 15px 0;
+    button {
+        cursor: pointer;
+        padding: 13px 15px;
+        border-radius: 10px;
+        margin: 0px 20px;
+        transition: .25s;
+        text-transform: uppercase;
+        font-weight: 600;
+        border:none;
+        box-shadow: rgba(#000, .5) 0px 3px 5px;
+        &:focus {
+            outline:0;
+        }
+        &:hover {
+            transition: .25s;
+            box-shadow: rgba(#000, .5) 0px 3px 10px;
+
+        }
+    }
+
+}
+
+.start-button {
+    background-color: $green;
+    @media only screen and (min-width: 600px) {
+        background-color: rgba($green, .5);
+        &:hover:enabled {
+            background-color: $green;
+        }
+    }
+}
+
+.stop-button {
+    background-color: $red;
+    @media only screen and (min-width: 600px) {
+        background-color: rgba($red, .5);
+        &:hover:enabled {
+            background-color: $red;
+        }
+    }
+}
+
+.reset-button {
+    background-color: $grey;
+    @media only screen and (min-width: 600px) {
+        background-color: rgba($grey, .5);
+        &:hover:enabled {
+            background-color: $grey;
+        }
+    }
+}
+

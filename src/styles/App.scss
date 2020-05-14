@@ -1,0 +1,53 @@
+@import './variables.scss';
+@import './TimeAndTeamInfo.scss';
+@import './Score.scss';
+@import './Substitutions.scss';
+@import './TimeButtons.scss';
+@import './variables.scss';
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: $primary-color url("../img/bg3.jpg") no-repeat center center;
+    background-size: cover;
+    font-family: Roboto;
+}
+
+.container {
+    background-color: rgba($primary-color, .75);
+    margin: 50px auto;
+    color: #fff;
+    border-radius: 40px;
+    width: 85%;
+    @media only screen and (min-width: 600px) {
+        width: 65%;
+    }
+    @media only screen and (min-width: 768px) {
+        width: 60%;
+    }
+    @media only screen and (min-width: 992px) {
+        width: 55%;
+    }
+    @media only screen and (min-width: 1200px) {
+        width: 50%;
+        max-width:700px;
+    }
+
+}
+
+.app-title {
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(to top, rgba($primary-color, .5), rgba($primary-color, 0));
+    border-radius: 0 0 40px 40px;
+    h1 {
+        font-size: 1.2em;
+        font-weight: 300;
+        padding: 15px 0;
+        @media only screen and (min-width: 600px) {
+            font-size: 1.5em;
+        }
+    }
+}

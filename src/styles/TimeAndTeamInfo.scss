@@ -1,0 +1,59 @@
+.team-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-image: linear-gradient(to bottom, rgba($primary-color, .5), rgba($primary-color, 0));
+    border-radius: 40px 40px 0px 0;
+}
+
+.time-pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.time, .score {
+    display: flex;
+    justify-content: center;
+}
+
+.time p {
+    font-size: 1.75em;
+    font-weight: 600;
+    color: #222;
+    background-color: rgba(255,255,255,0.85);
+    padding:3px 5px;
+    border-radius: 5px;
+}
+
+.home-picture, .away-picture {
+    background-color: #ccc;
+    border-radius: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    @media only screen and (min-width: 600px) {
+        display: block;
+        width: 100px;
+        height: 100px;
+    }
+    @media only screen and (min-width: 768px) {
+        width: 120px;
+        height: 120px;        
+    }
+    @media only screen and (min-width: 992px) {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+.home-picture {
+    background-image: url(../img/home.jpg);
+}
+
+.away-picture {
+    background-image: url(../img/away2.jpg);
+}
