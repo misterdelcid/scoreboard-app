@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/scoreboard-app/static/css/main.a4f720e2.chunk.css",
-    "main.js": "/scoreboard-app/static/js/main.a70b3c07.chunk.js",
-    "main.js.map": "/scoreboard-app/static/js/main.a70b3c07.chunk.js.map",
-    "runtime-main.js": "/scoreboard-app/static/js/runtime-main.e9f8fb2d.js",
-    "runtime-main.js.map": "/scoreboard-app/static/js/runtime-main.e9f8fb2d.js.map",
-    "static/js/2.f03657ac.chunk.js": "/scoreboard-app/static/js/2.f03657ac.chunk.js",
-    "static/js/2.f03657ac.chunk.js.map": "/scoreboard-app/static/js/2.f03657ac.chunk.js.map",
-    "index.html": "/scoreboard-app/index.html",
-    "precache-manifest.f2a633a2d2c8ba8cf80a96215417cf40.js": "/scoreboard-app/precache-manifest.f2a633a2d2c8ba8cf80a96215417cf40.js",
-    "service-worker.js": "/scoreboard-app/service-worker.js",
-    "static/css/main.a4f720e2.chunk.css.map": "/scoreboard-app/static/css/main.a4f720e2.chunk.css.map",
-    "static/js/2.f03657ac.chunk.js.LICENSE.txt": "/scoreboard-app/static/js/2.f03657ac.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/scoreboard-app/static/media/home.7921fef0.jpg"
+    "main.css": "/golazo/static/css/main.87a0d3f0.chunk.css",
+    "main.js": "/golazo/static/js/main.22aa3c8c.chunk.js",
+    "main.js.map": "/golazo/static/js/main.22aa3c8c.chunk.js.map",
+    "runtime-main.js": "/golazo/static/js/runtime-main.1f5461ff.js",
+    "runtime-main.js.map": "/golazo/static/js/runtime-main.1f5461ff.js.map",
+    "static/js/2.f03657ac.chunk.js": "/golazo/static/js/2.f03657ac.chunk.js",
+    "static/js/2.f03657ac.chunk.js.map": "/golazo/static/js/2.f03657ac.chunk.js.map",
+    "index.html": "/golazo/index.html",
+    "precache-manifest.6997a1c08f988745163cf432f50e208a.js": "/golazo/precache-manifest.6997a1c08f988745163cf432f50e208a.js",
+    "service-worker.js": "/golazo/service-worker.js",
+    "static/css/main.87a0d3f0.chunk.css.map": "/golazo/static/css/main.87a0d3f0.chunk.css.map",
+    "static/js/2.f03657ac.chunk.js.LICENSE.txt": "/golazo/static/js/2.f03657ac.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/golazo/static/media/home.7921fef0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e9f8fb2d.js",
+    "static/js/runtime-main.1f5461ff.js",
     "static/js/2.f03657ac.chunk.js",
-    "static/css/main.a4f720e2.chunk.css",
-    "static/js/main.a70b3c07.chunk.js"
+    "static/css/main.87a0d3f0.chunk.css",
+    "static/js/main.22aa3c8c.chunk.js"
   ]
 }
