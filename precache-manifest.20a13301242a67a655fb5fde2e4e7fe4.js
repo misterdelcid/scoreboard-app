@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6357e1cb9eb5abb9da4e9ce18b6d8d6",
+    "revision": "59d85f2515ce6cf228584459bd4aa71b",
     "url": "/golazo/index.html"
   },
   {
